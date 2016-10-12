@@ -52,5 +52,12 @@
 <br>
 <a href="view/menu.jsp">menu</a>
 <a href="view/menu-js.jsp">menu-js</a>
+<br>
+<a href="view/datagrid.jsp">datagrid</a>
+<a href="view/datagrid2.jsp">datagrid2</a>
+<a href="view/datagrid3-formatter.jsp">datagrid3-formatter</a>
+<br>
+<a href="view/tree.jsp">tree</a>
+<a href="view/tree-drag-drop.jsp">tree-drag-drop</a>
 </body>
 </html>
