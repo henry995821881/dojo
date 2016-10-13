@@ -29,7 +29,7 @@
 		<tr>
 			<td valign="top"><strong>First Name*: </strong></td>
 			<td><input type="text" required="true" name="firstName" id="firstName" placeholder="Your Name"
-					   data-dojo-type="dijit/form/ValidationTextBox" missingMessage="Ooops!  You forgot your first name!" /></td>
+					   data-dojo-type="dijit/form/ValidationTextBox" missingMessage="自定义提示" /></td>
 		</tr>
 		<tr>
 			<td valign="top"><strong>Website*:  </strong></td>
