@@ -8,6 +8,7 @@
 </head>
 <body>
 <a href="regexp/regexp-match.jsp">regexp-match</a>
+<a href="regexp/js-prototype-proto-constructor.jsp">regexp/js-prototype-proto-constructor.jsp</a>
 <br>
 <a href="view/events.jsp">events</a>
 <a href="view/events2.jsp">events2</a>
