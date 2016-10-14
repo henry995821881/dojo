@@ -49,4 +49,14 @@
     <servlet-name>Mvc</servlet-name>
     <url-pattern>/Mvc/query</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>GetJson</display-name>
+    <servlet-name>GetJson</servlet-name>
+    <servlet-class>com.henry.servlet.GetJson</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetJson</servlet-name>
+    <url-pattern>/GetJson</url-pattern>
+  </servlet-mapping>
 </web-app>
