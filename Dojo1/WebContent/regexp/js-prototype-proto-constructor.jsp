@@ -14,6 +14,27 @@
 //Parent 的 this.方法，this.属性 ，会放到Child的prototype中，
 //Parent 的prototype 方法属性，会放到Child的prototype._proto中，
 
+
+//扩展工具扩展own
+var tool = {
+		
+	extend :function(own,source){
+		
+		for(e in source){
+			
+			own[e] = source[e];
+		}
+		
+		return own;
+		
+	}	
+		
+};
+
+
+
+
+
  var Anm = function (name){
 	
         this.name =name,
@@ -54,15 +75,21 @@ Cat.prototype.scream = function(){
 }
 
 var cat = new Cat();
-cat.scream();
+/* cat.scream();
 cat.eat();
 cat.drink();
 cat.peer();
 console.log(cat.name);
-console.log(Cat.prototype);
+console.log(Cat.prototype); */
+
+var dog = {};
 
 
+tool.extend(dog, cat);
 
+
+dog.eat();
+console.log(dog.name);
 
 
 
